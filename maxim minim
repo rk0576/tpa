@@ -1,0 +1,20 @@
+ n1=int(input('introduceti primul numar='))
+n2=int(input('introduceti al doilea numar'))
+ #f)Numarul minim
+def min(n1,n2):
+    if n1<n2:
+        min=n1
+        return min
+    if n1>n2:
+        min=n2
+        return min
+print("Numarul minim :",min(n1,n2))
+#g) Numarul maxim
+def max(n1,n2):
+    if n1>n2:
+        max=n1
+        return max
+    if n1<n2:
+        max=n2
+        return max
+print("Numarul maxim :",max(n1,n2))
