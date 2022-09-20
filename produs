@@ -1,0 +1,7 @@
+n1=int(input('introduceti primul numar='))
+n2=int(input('introduceti al doilea numar='))
+#b) produsul numerelor
+def produs(n1,n2):
+    p=n1*n2
+    return p
+print('produsul numerelor este',  produs(n1,n2))
