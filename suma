@@ -1,0 +1,7 @@
+n1=int(input('introduceti primul numar='))
+n2=int(input('introduceti al doilea numar'))
+#a)suma numerelor
+def suma(n1,n2):
+    s=n1+n2
+    return s
+print('suma numerelor este', suma(n1,n2))
