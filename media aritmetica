@@ -1,0 +1,7 @@
+n1=int(input('introduceti primul numar='))
+n2=int(input('introduceti al doilea numar='))
+#c)media aritmetica
+def ma(n1,n2):
+    ma=(n1*n2)/2
+    return ma
+print('media aritmetica a  numerelor este',  ma(n1,n2))
