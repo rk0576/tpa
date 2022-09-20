@@ -1,0 +1,12 @@
+ n1=int(input('introduceti primul numar='))
+n2=int(input('introduceti al doilea numar'))
+
+ #k)5 multipli comuni
+multipli=[]
+def mc5(n1,n2):
+    x=n1*n2
+    for i in range(5):
+        multipli.append(x)
+        x=x*2
+mc5(n1,n2)
+print('5 multipli comuni sunt',*multipli,sep=" ")
